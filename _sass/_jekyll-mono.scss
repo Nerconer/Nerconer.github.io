@@ -120,6 +120,16 @@ button.button-primary:focus {
     padding: 15px 0 50px;
 }
 
+@media only screen  and (min-width: 768px) {
+	.space-medium {
+    	padding: 5px 0 50px;
+	}
+	.space-small {
+    	padding: 5px 0 25px;
+	}
+
+}
+
 .space-small {
     padding: 50px 0 25px;
 }

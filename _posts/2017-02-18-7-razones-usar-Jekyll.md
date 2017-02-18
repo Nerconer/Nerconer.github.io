@@ -49,6 +49,6 @@ Jekyll ha sido desarrollado por [Tom Preston-Werner](http://tom.preston-werner.c
 
 ### 7. Jekyll es divertido
 
-Me gusta la simplicidad que me ofrece y me divierto usándolo. Con Jekyll te sientes como un 'hacker'. No hay CMS, no hay un panel de administrador con interfaz gráfica, no hay bases de datos y para actualizar la web solo necesito un editor de texto, la terminal y conexión a internet. Se siente como algo 'más cercano' eliminando todas esas opciones que vienen con los CMS y/o plataformas de blogs actuales. Está hecho por desarrolladores para desarrolladores.
+Me gusta la simplicidad que me ofrece y me divierto usándolo. Con Jekyll te sientes como un 'hacker'. No hay CMS, no hay un panel de administrador con interfaz gráfica, no hay bases de datos y para actualizar la web solo necesito un editor de texto, la terminal y conexión a internet. Se siente como algo 'más cercano' eliminando todas esas opciones que vienen con los CMS y/o plataformas de blogs actuales. Está hecho por y para desarrolladores.
 
 Finalmente, si estás interesado, puedes encontrar el código de mi blog en [GitHub](https://github.com/Nerconer/Nerconer.github.io).

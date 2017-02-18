@@ -6,7 +6,7 @@ author: David Solà
 
 ¿Alguna vez te has preguntado por qué algunos blogs cargan más rápido que otros?  
 
-_Este post forma parte de una serie de artículos acerca de Jekyll y cómo montar un blog:_
+_Este post forma parte de una serie de artículos acerca de Jekyll:_
 
 * [7 razones por las que deberías usar Jekyll]({{ site.url }}/7-razones-usar-Jekyll/)
 * [¿Cómo montar un blog con Jekyll?]({{ site.url }}/como-montar-un-blog-con-Jekyll/)

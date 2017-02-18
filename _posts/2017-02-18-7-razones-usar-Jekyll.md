@@ -15,7 +15,7 @@ _Este post forma parte de una serie de artículos acerca de Jekyll:_
 
 ## ¿Por qué usar Jekyll?
 
-Antes de empezar, hay que analizar cual es el dominio del problema y que herramientas están a nuestro alcance. Actualmente existen numerosas alternativas para crear páginas web como son los CMS [Wordpress](https://es.wordpress.com) o [Drupal](https://www.drupal.org). Personalmente, no creo que ninguna de estas opciones sea mejor que la otra, todas sirven para solucionar una mismo problema y su elección depende de cuales sean tus necesidades.
+Antes de empezar, hay que analizar cual es el dominio del problema y que herramientas están a nuestro alcance. Actualmente existen numerosas alternativas para crear páginas web como son los CMS [Wordpress](https://es.wordpress.com) o [Drupal](https://www.drupal.org). Personalmente, no creo que ninguna de estas opciones sea mejor que la otra, todas sirven para solucionar un mismo problema y su elección depende de cuales sean tus necesidades.
 
 Si el usuario no cuenta con conocimientos técnicos, claramente recomendaría [Wordpress](https://es.wordpress.com) ya que es una de las opciones más sencillas que existen actualmente y permite crear una web en poco tiempo.
 

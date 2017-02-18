@@ -33,7 +33,7 @@ Una vez configurado Jekyll el mantenimiento pasa a ser prácticamente nulo de ma
 
 ### 3. Jekyll te ofrece libertad
 
-En todo momento sabes que está sucediendo. Los componentes que contiene únicamente son: HTML + CSS/SASS + Markdown. Son fáciles de manipular con un aprendizaje mínimo, aportando un plus de confianza y poder ya que puedes personalizar el blog a tu gusto sin ningún tipo de restricción. Es relativamente fácil de entender si tienes un conocimientos básico acerca de cómo las webs están hechas.
+En todo momento sabes que está sucediendo. Los componentes que contiene únicamente son: HTML + CSS/SASS + Markdown. Son fáciles de manipular con un aprendizaje mínimo, aportando un plus de confianza y poder ya que puedes personalizar el blog a tu gusto sin ningún tipo de restricción. Es relativamente fácil de entender si tienes un conocimiento básico acerca de cómo las webs están hechas.
 
 ### 4. Jekyll te permite experimentar
 
@@ -49,6 +49,6 @@ Jekyll ha sido desarrollado por [Tom Preston-Werner](http://tom.preston-werner.c
 
 ### 7. Jekyll es divertido
 
-Me gusta la simplicidad que me ofrece y me divierto. Con Jekyll te sientes como un 'hacker': no hay CMS, no hay un panel de administrador con interfaz gráfica, no hay bases de datos y para actualizar la web solo necesito la terminal y conexión a internet. Se siente como algo 'más cercano' eliminando todas esas opciones que vienen con los CMS y/o plataformas de blogs. Está hecho por desarrolladores para desarrolladores.
+Me gusta la simplicidad que me ofrece y me divierto usándolo. Con Jekyll te sientes como un 'hacker'. No hay CMS, no hay un panel de administrador con interfaz gráfica, no hay bases de datos y para actualizar la web solo necesito un editor de texto, la terminal y conexión a internet. Se siente como algo 'más cercano' eliminando todas esas opciones que vienen con los CMS y/o plataformas de blogs actuales. Está hecho por desarrolladores para desarrolladores.
 
 Finalmente, si estás interesado, puedes encontrar el código de mi blog en [GitHub](https://github.com/Nerconer/Nerconer.github.io).

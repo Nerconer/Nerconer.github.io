@@ -23,8 +23,24 @@
       <div class="container">
         <div class="post-heading">
             <h1>{{page.title}}</h1>
-            <span class="meta">Posted by <a href="{{ site.baseurl }}/about"> {{page.author}}
-            </a> on {{ page.date | date: "%B %e, %Y" }}
+            <span class="meta">Escrito por: <a href="{{ site.baseurl }}/acerca"> {{page.author}}
+            </a> el {% assign m = page.date | date: "%-m" %}
+                {{ page.date | date: "%-d" }} de 
+                  {% case m %}
+                    {% when '1' %}enero
+                    {% when '2' %}febrero
+                    {% when '3' %}marzo
+                    {% when '4' %}abril
+                    {% when '5' %}mayo
+                    {% when '6' %}junio
+                    {% when '7' %}julio
+                    {% when '8' %}agosto
+                    {% when '9' %}setiembre
+                    {% when '10' %}octubre
+                    {% when '11' %}noviembre
+                    {% when '12' %}diciembre
+                  {% endcase %}
+                  de {{ page.date | date: "%Y" }}
             <a href="{{ site.baseurl }}/blog"> Volver al blog</a>
             </span>
         </div>

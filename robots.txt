@@ -3,4 +3,3 @@
 
 User-agent: *
 Sitemap: https://nerconer.github.io/sitemap.xml
-#{{ site.url }}

@@ -2,11 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
 name: David Solà
-
-# Short bio or description (displayed in the header)
 description: Mi página personal
+keywords: "David, Solà, Solé, nerconer, davidsola, programación, github, jekyll, deporte, informática"
 
 
 #

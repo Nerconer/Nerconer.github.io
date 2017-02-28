@@ -4,27 +4,27 @@ title: Cómo crear de forma sencilla un blog con Jekyll
 author: David Solà
 ---
 
-He creado esta web utilitzando Jekyll. Tú mísmo puedes crear ahora mismo un blog y alojarlo en GitHub utilizando esta herramienta. La creación de blogs con Jekyll es fácil y eficiente si cuentas con un mínimo conocimiento de desarrollo web.
+Este blog ha sido creado utilitzando Jekyll. Tú mísmo puedes crear ahora mismo un blog y alojarlo en GitHub utilizando esta herramienta. La creación de blogs con Jekyll es fácil y eficiente si cuentas con un mínimo conocimiento de desarrollo web.
 
-Hace ya un tiempo que me rondaba por mi cabeza la idea de crear mi web personal y tener un pequeño blog para aportar mi granito de arena al mundo. Al no contar con demasiada experiencia en esta campo, tenía ciertas dudas, las más importantes eran: 
+Hace ya un tiempo que me rondaba por mi cabeza la idea de crear mi web personal y tener un pequeño blog para aportar mi granito de arena al mundo. Durante la carrera, no vimos desarrollo web, por lo que al no contar con demasiada experiencia en este campo, tenía ciertas dudas, como: 
 
 * ¿Debería hacer la web desde cero o utilizar alguna herramienta existente?
 * ¿Cúanto tiempo deberé dedicar al mantenimiento de la web?
 * ¿Existe alguna solución que me permita alojar la web de forma gratuita?
-* ¿Tendré problemas de diseño? MODIFICAR
+* ¿Sabré diseñarla de forma correcta?
 
-Mientras iba investigando ,fuí resolviendo estas preguntas pero a su vez me iban viniendo otras. Cómo no parecía que fueran a terminar, dicidí ponerme manos a la obra una vez descubrí Jekyll. Si GitHub lo recomienda para crear un blog, no puede ser malo, verdad?
+Mientras iba investigando ,fuí resolviendo estas preguntas sobre la marcha, pero a su vez, me iban viniendo otras. Cómo al final parecía un bucle sin fin, dicidí ponerme manos a la obra una vez cuando descubrí Jekyll por una razón bastante sencilla. ¿Si GitHub lo recomienda para crear tu blog personal, no puede ser malo, verdad?
 
-En mi [anterior artículo](), expliqué porqué Jekyll me parece una buena solución para crear un blog. Al ser software de código abierto, es gratuito y puede ser alojado en un repositorio de GitHub (que tambien es gratuito). 
+En mi [anterior artículo](), expliqué porqué Jekyll me parece una buena solución para crear un blog. Al ser software de código abierto, es gratuito y puede ser alojado en un repositorio de GitHub (que a su vez, es tambien gratuito). 
 
-Por estos motivos, y junto al tutorial que viene a continuación, ya no tienes excusa para montar tu blog como he hecho.
+Por estos motivos que comenté y junto al tutorial que viene a continuación, ya no tienes excusa para montar tu blog ahora mismo.
 
 ## Requisitos prévios
 
-Antes de empezar con el tutorial, hay ciertas cosas que necesitas saber/tener.
+Antes de empezar con el tutorial, hay ciertas cosas que necesitas saber y tener.
 
 * Cuenta en GitHub
-* Conocimientos de HTML/CSS
+* Conocimientos de HTML/CSS (básicos)
 * Un pocos minutos de tu vida
 
 ## Paso 1: Encuentra un tema que encaje con tus necesidades

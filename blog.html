@@ -26,7 +26,7 @@ layout: default
                     {% when '11' %}noviembre,
                     {% when '12' %}diciembre,
                   {% endcase %} {{ post.date | date: "%Y" }}</li>
-      	<li class="meta-item">Escrito por: <a href="{{ site.baseurl }}/"> {{post.author}}</a></li>
+      	<li class="meta-item"><i class="icon-user"></i> <a href="{{ site.baseurl }}/"> {{post.author}}</a></li>
       </ul>
 		
       <div class="entry">

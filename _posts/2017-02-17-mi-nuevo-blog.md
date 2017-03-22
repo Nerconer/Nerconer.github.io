@@ -2,6 +2,7 @@
 layout: post
 title: Mi nuevo blog
 author: David Solà
+time: 1
 ---
 
 Bienvenidos. Con este artículo estreno mi blog :)

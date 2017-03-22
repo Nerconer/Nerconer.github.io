@@ -13,6 +13,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
 
   </head>
 
@@ -23,26 +24,7 @@
       <div class="container">
         <div class="post-heading">
             <h1>{{page.title}}</h1>
-            <span class="meta">Escrito por: <a href="{{ site.baseurl }}/"> {{page.author}}
-            </a> el {% assign m = page.date | date: "%-m" %}
-                {{ page.date | date: "%-d" }} de 
-                  {% case m %}
-                    {% when '1' %}enero
-                    {% when '2' %}febrero
-                    {% when '3' %}marzo
-                    {% when '4' %}abril
-                    {% when '5' %}mayo
-                    {% when '6' %}junio
-                    {% when '7' %}julio
-                    {% when '8' %}agosto
-                    {% when '9' %}setiembre
-                    {% when '10' %}octubre
-                    {% when '11' %}noviembre
-                    {% when '12' %}diciembre
-                  {% endcase %}
-                  de {{ page.date | date: "%Y" }}
-            <a href="{{ site.baseurl }}/blog"> Volver al blog</a>
-            </span>
+            
         </div>
             
       </div>
@@ -50,6 +32,32 @@
     
 
     <div id="main" role="main" class="container">
+      <p class="meta">
+        <ul class="blog-post-meta">
+          <li class="meta-item"><i class="icon-calendar"></i> {% assign m = page.date | date: "%-m" %}
+                  {{ page.date | date: "%-d" }} de 
+                    {% case m %}
+                      {% when '1' %}enero
+                      {% when '2' %}febrero
+                      {% when '3' %}marzo
+                      {% when '4' %}abril
+                      {% when '5' %}mayo
+                      {% when '6' %}junio
+                      {% when '7' %}julio
+                      {% when '8' %}agosto
+                      {% when '9' %}setiembre
+                      {% when '10' %}octubre
+                      {% when '11' %}noviembre
+                      {% when '12' %}diciembre
+                    {% endcase %}
+                    de {{ page.date | date: "%Y" }}
+          </li>
+          <li class="meta-item"><i class="icon-user"></i><a href="{{ site.baseurl }}/"> {{page.author}}</a></li>
+          <li class="meta-item"><i class="icon-time"></i> {{page.time}} min de lectura.</li>
+          <li class="meta-item"><a href="{{ site.baseurl }}/blog"> Volver al blog</a></li>
+        </ul>          
+      </p>
+
       {{ content }}
     </div>
 
@@ -65,5 +73,8 @@
 
 
     {% include analytics.html %}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

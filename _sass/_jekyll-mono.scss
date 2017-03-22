@@ -91,10 +91,11 @@ button.button-primary:focus {
 .intro-header {
   border-top: 0px solid white;
   background-color:$mono-color;
+  margin-bottom: 1em;
 }
 
 .intro-header .post-heading {
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
   color: $white;
   
 }
@@ -135,7 +136,7 @@ button.button-primary:focus {
 }
 
 .space-extra-small {
-    padding: 30px 0 15px;
+    padding: 1px 0 15px;
 }
 
 /* 
@@ -389,18 +390,46 @@ button.button-primary:focus {
     
 }
 
-.aviso, nota, .consejo {
+.aviso, .nota, .consejo {
 	border-radius: 0 4px 4px 0;
 	padding: 15px 5px 5px 15px;
 	margin: 2em 0 2em 0;
 	color: #fff;
 	text-shadow: 0px 0px 1px;
-	font-size: 0.9em
 }
 
 .consejo {
 	background-color: #22A7F0;
-	border-left: 1.2em solid #4183D7
+	border-left: 0.5em solid #4183D7
+}
+
+.consejo:before {
+	content: "Consejo:";
+	font-weight: bold;
+	display: block;
+}
+
+.nota {
+	background-color: #e2ba28;
+	border-left: 7px solid #c09d1c
+}
+
+.nota:before {
+	content: "Nota:";
+	font-weight: bold;
+	display: block;
+
+}
+
+.aviso {
+	background-color: #f56767;
+	border-left: 7px solid #e02a2a
+}
+
+.aviso:before {
+	content: "Aviso:";
+	font-weight: bold;
+	display: block;
 }
 
 
@@ -424,6 +453,14 @@ button.button-primary:focus {
 	.meta-item {
 		display: inline;
 		padding-right: 20px;
+
+		a {
+			color: #999;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
 	}
 
 	svg {
@@ -436,3 +473,34 @@ button.button-primary:focus {
 	fill: currentColor;
 }
 
+code {
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	color: #4e4e4e;
+	background-color: #f5f2f0;
+	padding: .15625em .3125em;
+	border-radius: 4px;
+	font-size: 0.8em;
+}
+
+.entry {
+	li {
+		font-size: 1.1em;
+		margin-bottom: 5px;
+	}
+}
+
+/*
+	configuración imagenes
+*/
+
+.full {
+	width: 100%;
+	border-radius: 4px;
+}
+
+figcaption {
+	color: #777;
+	font-style: italic;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+}

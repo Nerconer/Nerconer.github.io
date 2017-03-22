@@ -2,6 +2,7 @@
 layout: post
 title: 7 razones por las que deberías usar Jekyll
 author: David Solà
+time: 4
 ---
 
 ¿Alguna vez te has preguntado por qué algunos blogs cargan más rápido que otros?  

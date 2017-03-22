@@ -2,7 +2,7 @@
 layout: post
 title: Cómo crear de forma sencilla un blog con Jekyll
 author: David Solà
-time: 5
+time: 7
 ---
 
 Este blog ha sido creado utilizando Jekyll. Tú mismo puedes crear ahora mismo un blog y alojarlo en GitHub utilizando esta herramienta. La creación de blogs con Jekyll es fácil y eficiente si cuentas con un mínimo conocimiento de desarrollo web.

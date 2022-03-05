@@ -1,0 +1,3 @@
+user-agent: *
+  
+sitemap: https://nerconer.com/Sitemap.xml

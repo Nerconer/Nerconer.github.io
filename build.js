@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const outputFolder = 'dist'
+const outputFolder = 'docs'
 
 require('./build/copy-assets')(outputFolder)
 
@@ -20,6 +20,6 @@ html = templates('social-media-item-template')('social-media-list')(html)
 html = require('./build/minifier')(html, 'html')
 
 
-require('./build/robots')()
+require('./build/robots')(outputFolder)
 
 fs.writeFileSync(`${outputFolder}/index.html`, html)

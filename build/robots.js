@@ -1,12 +1,12 @@
 const fs = require('fs')
 
-module.exports = () => {
+module.exports = (folder) => {
   const robotsFile = 
   `user-agent: *
   
 sitemap: https://nerconer.com/Sitemap.xml`
 
-  fs.writeFileSync('dist/robots.txt', robotsFile)
+  fs.writeFileSync(`${folder}/robots.txt`, robotsFile)
 
   const siteMap =
   `<?xml version="1.0" encoding="UTF-8"?>
@@ -20,5 +20,5 @@ sitemap: https://nerconer.com/Sitemap.xml`
 <urlset>
   `
 
-  fs.writeFileSync('dist/SiteMap.xml', siteMap)
+  fs.writeFileSync(`${folder}/SiteMap.xml`, siteMap)
 }
